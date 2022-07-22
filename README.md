@@ -1,4 +1,4 @@
-# A00X - Template de Prática
+# A010 - Template de Prática
 **Vamos utilizar esse repositório para as práticas da aula!**
 
 ## Instruções para baixar
