@@ -1,4 +1,4 @@
-# A010 - Template de Prática
+# Arrays - Template de Prática
 **Vamos utilizar esse repositório para as práticas da aula!**
 
 ## Instruções para baixar
