@@ -34,6 +34,33 @@ function imprimirArray (){
   console.log(testeNumeros[0], testeNumeros.indexOf(27), testeNumeros.length)
 
   //prática 3
+  //desta forma ocupo o mesmo espaço da original
+  /* const copiaTesteStrings = testeStrings
+  copiaTesteStrings.push("Everton Ribeiro")
+
+  console.log(copiaTesteStrings)
+  console.log(testeStrings) */
+  
+  const copiaTesteStrings = testeStrings.slice()
+  copiaTesteStrings.push("Everton Ribeiro")
+  console.log(copiaTesteStrings)
+  console.log(testeStrings)
+  // indice, quantidade de itens a serem removidos
+  copiaTesteStrings.splice(2, 2)
+  console.log(copiaTesteStrings)
+
+  //EXTRA
+
+  const numeros = [1, 9, 8, 50, 111, 11, 38, 4, 5, 90]
+  const copiaNumeros = numeros.slice()
+  copiaNumeros.pop()
+  copiaNumeros.push(6)
+  copiaNumeros.splice(2, 1)
+  copiaNumeros.sort()
+
+  console.log(numeros)
+  console.log(copiaNumeros)
+
 
 
 
@@ -42,3 +69,6 @@ function imprimirArray (){
 
 
 imprimirArray()
+
+
+//Extra
