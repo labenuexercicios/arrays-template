@@ -15,7 +15,7 @@
 } */
 
 //Prática Exercício 2
-function imprimirArray() {
+/* function imprimirArray() {
   const cidades = ["Vitória", "Rio de Janeiro", "Belo Horizonte"];
   const cidades2 = cidades;
 
@@ -37,6 +37,17 @@ function imprimirArray() {
 
   cidades3.splice(2, 2);
   console.log(cidades3);
+} */
+
+function imprimirArray() {
+  const array1 = [1, 4, 2, 8, 9, 7, 3];
+  const arrayCopia = array1.slice();
+
+  arrayCopia.pop();
+  arrayCopia.push(6);
+  arrayCopia.splice(2, 1);
+  console.log(array1);
+  console.log(arrayCopia);
 }
 
 imprimirArray()
